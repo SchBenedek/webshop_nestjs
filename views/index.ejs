@@ -52,17 +52,17 @@
             <label for="szallitasi">Számlázási cím</label><br>
             <input type="text" name="szallitasi" id="" value="<%=data.szallitasi%>"><br>
             <label for="kuponkod">Kuponkód</label><br>
-            <input type="text" name="kuponkod" id="" value="<%=data.kuponkod%>"><br>
+            <input type="text" name="kuponkod" id="" value="<%=data.kuponkod%>" placeholder="BB-SSSS"><br>
             <hr>
           </div>
           <div class="form-group">
             <p>Bankkártya adatok:</p>
             <label for="szam">Kártyaszám:</label><br>
-            <input type="text" name="szam" id="" value="<%=data.szam%>"><br>
+            <input type="text" name="szam" id="" value="<%=data.szam%>" placeholder="XXXX-XXXX-XXXX-XXXX"><br>
             <label for="lejarat">Lejarati dátum</label><br>
-            <input type="text" name="lejarat" id="" value="<%=data.lejarat%>"><br>
+            <input type="text" name="lejarat" id="" value="<%=data.lejarat%>" placeholder="HH/ÉÉ"><br>
             <label for="kod">Biztonsági kód</label><br>
-            <input type="text" name="kod" id="" value="<%=data.kod%>"><br> 
+            <input type="text" name="kod" id="" value="<%=data.kod%>" placeholder="XXX"><br> 
             <% for (let e of errors){%>
               <p style="color: red;"><%= e %></p>
           <%}%>
