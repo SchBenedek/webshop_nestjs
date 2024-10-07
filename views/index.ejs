@@ -58,11 +58,11 @@
           <div class="form-group">
             <p>Bankkártya adatok:</p>
             <label for="szam">Kártyaszám:</label><br>
-            <input type="text" name="szam" id="" value="<%=data.szam%>" placeholder="XXXX-XXXX-XXXX-XXXX"><br>
+            <input type="text" name="szam" id="" placeholder="XXXX-XXXX-XXXX-XXXX"><br>
             <label for="lejarat">Lejarati dátum</label><br>
-            <input type="text" name="lejarat" id="" value="<%=data.lejarat%>" placeholder="HH/ÉÉ"><br>
+            <input type="text" name="lejarat" id="" placeholder="HH/ÉÉ"><br>
             <label for="kod">Biztonsági kód</label><br>
-            <input type="text" name="kod" id="" value="<%=data.kod%>" placeholder="XXX"><br> 
+            <input type="text" name="kod" id="" placeholder="XXX"><br> 
             <% for (let e of errors){%>
               <p style="color: red;"><%= e %></p>
           <%}%>
